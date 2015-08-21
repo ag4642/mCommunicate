@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal|fill_horizontal"
+    android:orientation="horizontal"
+    android:paddingBottom="15dip"
+    android:paddingTop="15dip" >
+        
+   <TextView
+       android:id="@+id/id_header"
+       style="@style/ListFragmentItem"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:visibility="gone" />
+         
+    <TextView
+        android:id="@+id/alias_header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/alias"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+          
+    <TextView
+        android:id="@+id/datetime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/datetime"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+     
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/location"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_settings">Settings</string>
+    <string name="select_button_label">Select</string>
+    <string name="cancel_button_label">Cancel</string>
+    <string name="file_item_icon_description">File Icon</string>
+    <string name="directory_icon_description">directory icon</string>
+    <string name="default_directory">/</string>
+    <string name="select_folder">Select Folder</string>
+    <string name="add_folder">+</string>
+    <string name="folder_name">Folder Name</string>
+    <string name="folder_creation_failed">Cannot create a subdirectory in the current directory</string>
+    <string name="invalid_folder_name">Invalid directory name. Please use an alphanumeric name.</string>
+    <string name="create_folder">Create a new folder</string>
+    <string name="wifi_service_name">WifiDirectService</string>
+    <string name="title_connection_list">Connections</string>
+    <string name="alias">Alias</string>
+    <string name="location">Location</string>
+    <string name="datetime">Datetime</string>
+    <string name="service_connectionData">get_touches.php</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="action_view_connections">View Touches</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_search">Search</string>
+    <string name="p2p_service_name">Peer2PeerService</string>
+    <string name="action_home">Home</string>
+    <string name="search_alias">alias</string>
+    <string name="search_datetime">datetime</string>
+    <string name="search_location">location</string>
+    <string name="search">search</string>
+    <string name="app_name">mCommunicate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wifi_p2_p">WifiP2P</string>
+    <string name="enable_p2p_button">P2P On/Off</string>
+    <string name="discover_peers_button">Discover</string>
+    <string name="connect_peer_button">Connect</string>
+    <string name="disconnect_peer_button">Disconnect</string>
+    <string name="get_file_button">Launch Gallery</string>
+    <string name="empty"></string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="client_text">This device will act as a client. Click on Gallery button to pick a local(stored) file</string>
+    <string name="empty_message">No devices found. Turn on P2P and perform discovery from the Action Bar</string>
+    <string name="p2p_off_warning">Enable P2P from action bar button above or system settings</string>
+    <string name="group_owner_text">"Am I the Group Owner? "</string>
+    <string name="label_me">ME</string>
+    <string name="label_peers">PEERS</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+</resources>

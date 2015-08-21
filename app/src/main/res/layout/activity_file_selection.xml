@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- The current directory -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_directory"
+        android:textSize="12sp"
+        android:background="#f0f0f0"
+        />
+
+    <!-- The file list and buttons -->
+    <RelativeLayout
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button android:id="@+id/cancel_button" android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" android:text="@string/cancel_button_label"
+            android:onClick="onClickCancel" />
+
+        <ListView android:id="@+id/files_list" android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_above="@id/cancel_button" />
+
+    </RelativeLayout>
+
+</LinearLayout>
